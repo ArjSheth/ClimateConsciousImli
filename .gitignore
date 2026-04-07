@@ -1,3 +1,4 @@
 .venv/
 .idea/
 /Thoughts_And_Docs/*
+/testing_pipeline.ipynb
