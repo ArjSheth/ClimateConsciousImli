@@ -2,3 +2,5 @@
 .idea/
 /Thoughts_And_Docs/*
 /testing_pipeline.ipynb
+_pycache__/
+*.ipynb_checkpoints
