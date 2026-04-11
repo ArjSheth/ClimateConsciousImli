@@ -13,6 +13,7 @@ This is a machine learning project, a joint work with @anwesha-ghosh7 as part of
 - `testing_copernicus_access.ipynb` contains our initial analysis of Sentinel-5P's NO2 dataset, taken from the [Copernicus browser](https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&themeId=DEFAULT-THEME&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE)
 - `testing_gee_batch_access.ipynb` contains our analysis of the NO2 dataset from Google Earth Engine, which is itself a derivation of the above.
 - `smooth_pipeline.py` is a streamlined generalization of the previous file.
+- `missingdata_analysis.ipynb` explores missing-value patterns in the pollutant data, and plots the same for pattern inference.
 
 ### Future plans
 - `preprocess.py` : Call the GEE API, obtain dataframes from `smooth_pipeline.py`, and process them into tensors.
